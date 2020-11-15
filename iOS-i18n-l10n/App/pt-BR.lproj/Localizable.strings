@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  iOS-i18n-l10n
+
+  Created by Pedro Freddi on 15/11/20.
+  Copyright © 2020 Pedro Freddi. All rights reserved.
+*/
+
+TEST = "Eu sou um app em Português";
+NUMBER_EXAMPLE = "Exemplo de Número: ";
+CURRENCY_EXAMPLE = "Exemplo de Moeda: ";
+NOT_AVAILABLE = "Indisponível";

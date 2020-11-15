@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MHi-KJ-VU2">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="X7u-Au-pMQ">
+            <objects>
+                <viewController id="MHi-KJ-VU2" customClass="ViewController" customModule="iOS_i18n_l10n" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BnG-Uw-SVb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0G-xK-kJl">
+                                <rect key="frame" x="186" y="54" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="sbs-zb-niT">
+                                <rect key="frame" x="107" y="111" width="200" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8Ah-sU-kdQ"/>
+                                    <constraint firstAttribute="height" constant="130" id="OTu-0H-Q0P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46W-5u-opW">
+                                <rect key="frame" x="8" y="277" width="398" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzS-Jf-XRB">
+                                <rect key="frame" x="8" y="333.5" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMd-PJ-MG3">
+                                <rect key="frame" x="8" y="390.5" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8S0-0L-baz" firstAttribute="trailing" secondItem="zzS-Jf-XRB" secondAttribute="trailing" constant="8" id="4q2-U8-Egd"/>
+                            <constraint firstItem="t0G-xK-kJl" firstAttribute="centerX" secondItem="BnG-Uw-SVb" secondAttribute="centerX" id="5Ml-P8-dtN"/>
+                            <constraint firstItem="tMd-PJ-MG3" firstAttribute="top" secondItem="zzS-Jf-XRB" secondAttribute="bottom" constant="36" id="BaM-YO-U9G"/>
+                            <constraint firstItem="zzS-Jf-XRB" firstAttribute="leading" secondItem="8S0-0L-baz" secondAttribute="leading" constant="8" id="L6n-TU-8Mn"/>
+                            <constraint firstItem="8S0-0L-baz" firstAttribute="trailing" secondItem="tMd-PJ-MG3" secondAttribute="trailing" constant="8" id="LBY-cR-tBX"/>
+                            <constraint firstItem="sbs-zb-niT" firstAttribute="top" secondItem="t0G-xK-kJl" secondAttribute="bottom" constant="36" id="O43-6V-ppr"/>
+                            <constraint firstItem="zzS-Jf-XRB" firstAttribute="top" secondItem="46W-5u-opW" secondAttribute="bottom" constant="36" id="aHi-Dz-Frp"/>
+                            <constraint firstItem="8S0-0L-baz" firstAttribute="trailing" secondItem="46W-5u-opW" secondAttribute="trailing" constant="8" id="gkj-UO-YaT"/>
+                            <constraint firstItem="t0G-xK-kJl" firstAttribute="top" secondItem="8S0-0L-baz" secondAttribute="top" constant="10" id="ksh-A8-jxA"/>
+                            <constraint firstItem="46W-5u-opW" firstAttribute="leading" secondItem="8S0-0L-baz" secondAttribute="leading" constant="8" id="pSb-JX-BIe"/>
+                            <constraint firstItem="sbs-zb-niT" firstAttribute="centerX" secondItem="BnG-Uw-SVb" secondAttribute="centerX" id="pyn-q7-TW7"/>
+                            <constraint firstItem="46W-5u-opW" firstAttribute="top" secondItem="sbs-zb-niT" secondAttribute="bottom" constant="36" id="sT4-wN-LzI"/>
+                            <constraint firstItem="tMd-PJ-MG3" firstAttribute="leading" secondItem="8S0-0L-baz" secondAttribute="leading" constant="8" id="uGx-Lx-zax"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8S0-0L-baz"/>
+                    </view>
+                    <connections>
+                        <outlet property="currencyLabel" destination="tMd-PJ-MG3" id="pub-1w-d4N"/>
+                        <outlet property="dateLabel" destination="46W-5u-opW" id="Qd2-mb-D9w"/>
+                        <outlet property="label" destination="t0G-xK-kJl" id="Fn3-Dk-dxt"/>
+                        <outlet property="numberLabel" destination="zzS-Jf-XRB" id="1ZK-Qf-F5b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEd-rU-L1c" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flag" width="240" height="240"/>
+    </resources>
+</document>

@@ -1,0 +1,24 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal"
+    },
+    {
+      "filename" : "bandeiraUsa.png",
+      "idiom" : "universal",
+      "locale" : "en"
+    },
+    {
+      "filename" : "bandeiraBrasil.png",
+      "idiom" : "universal",
+      "locale" : "pt-BR"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}
